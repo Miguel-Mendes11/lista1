@@ -1,0 +1,9 @@
+seg = float(input("fale uma certa quantidade de segundos para que se necessário seja convertida para minutos, horas ou dias:"))
+minu = seg/60
+hora = seg/3600
+dias = seg/86400
+if seg < 60:
+    print("os segundos que você digitou não são suficientes para uma unidade de medida maior")
+print(f"{seg} equivalem a {minu} minutos")    
+print(f"{seg} equivalem a {hora} horas")      
+print(f"{seg} equivalem a {dias} dias")                                                                                                            
