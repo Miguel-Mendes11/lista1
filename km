@@ -1,0 +1,10 @@
+dias = float(input("Por quantos dias você ficou com o veículo? "))
+km = float(input("Quantos kms você rodou com o veículo? "))
+taxa_diaria = 90*dias
+taxa_km = (km-100)*12
+taxa_total = taxa_diaria+taxa_km
+if km > 100:
+    print(f"o valor que deverá ser pago equivale a {taxa-total}")
+else:
+    print(f"o valor que deverá ser pago equivale a {taxa_diaria}")
+
