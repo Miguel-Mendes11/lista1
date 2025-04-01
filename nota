@@ -1,0 +1,10 @@
+n1 = input("Qual foi sua nota do primeiro trimestre?")
+n2 = input("Qual foi sua nota do segundo trimestre?")
+n3 = input("Qual foi sua nota do terceiro trimestre?")
+media_arit = (n1+n2+n3)/3
+media_pond1 = (n1*2 + n2*2 + n3*3)/7
+media_pond2 = (n1*1 + n2*2 + n3*2)/6
+print(f"A média aritmética das suas notas equivale a {media_arit}")
+print(f"A média ponderada 1 das suas notas equivale a {media_pond1}")
+print(f"A média ponderada 2 das suas notas equivale a {media_pond2}")
+
