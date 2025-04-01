@@ -1,0 +1,8 @@
+valor = float(input("Boa tarde, por favor informe o valor que foi gastado nas compras: "))
+imp = valor*1,5
+if valor < 500:
+    print(f"O valor {valor} não é o suficiente para ser taxado")
+elif valor =< 500:
+    print(f"O valor {valor} é o suficiente para ser taxado, agora o valor da compra equivale a {imp}")
+    
+    
