@@ -1,0 +1,8 @@
+num = float(input("Digite um número ímpar: "))
+if num % 2 == 0:
+  print("O número deve ser ímpar!")
+else:
+  anterior = num - 1
+  proximo = num + 2
+  diferenca = proximo**2 - anterior**2
+  print(f"Diferença entre quadrados: {diferenca}")
